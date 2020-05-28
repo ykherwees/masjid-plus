@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-masjidplusapp-dev-122330-authRole",
+            "UnauthRoleArn": "arn:aws:iam::151421158252:role/amplify-masjidplusapp-dev-122330-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::151421158252:role/amplify-masjidplusapp-dev-122330-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-masjidplusapp-dev-122330-deployment",
+            "UnauthRoleName": "amplify-masjidplusapp-dev-122330-unauthRole",
+            "StackName": "amplify-masjidplusapp-dev-122330",
+            "StackId": "arn:aws:cloudformation:us-west-2:151421158252:stack/amplify-masjidplusapp-dev-122330/b8069e70-a118-11ea-b5b7-0aa7561f3002",
+            "AmplifyAppId": "d1yky51dl9f5rm"
+        }
+    }
+}
