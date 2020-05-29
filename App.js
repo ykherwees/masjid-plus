@@ -8,11 +8,14 @@ import BottomTabNavigator from './navigation/BottomTabNavigator';
 import LinkingConfiguration from './navigation/LinkingConfiguration';
 import Amplify from 'aws-amplify'
 import config from './aws-exports'
+import { withAuthenticator } from 'aws-amplify-react-native'
+
 Amplify.configure(config)
+
 
 const Stack = createStackNavigator();
 
-export default function App(props) {
+function App(props) {
   const isLoadingComplete = useCachedResources();
 
   if (!isLoadingComplete) {
@@ -30,6 +33,7 @@ export default function App(props) {
     );
   }
 }
+export default withAuthenticator(App)
 
 const styles = StyleSheet.create({
   container: {

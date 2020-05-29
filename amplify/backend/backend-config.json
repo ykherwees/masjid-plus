@@ -1,1 +1,10 @@
-{}
+{
+	"auth": {
+		"masjidplusapp2cb72dc5": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

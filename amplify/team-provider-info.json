@@ -10,6 +10,13 @@
             "StackName": "amplify-masjidplusapp-dev-122330",
             "StackId": "arn:aws:cloudformation:us-west-2:151421158252:stack/amplify-masjidplusapp-dev-122330/b8069e70-a118-11ea-b5b7-0aa7561f3002",
             "AmplifyAppId": "d1yky51dl9f5rm"
+        },
+        "categories": {
+            "auth": {
+                "masjidplusapp2cb72dc5": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"284993285974000\",\"client_secret\":\"e5df29e7950ffc78104bd32efcc3fb1b\"}]"
+                }
+            }
         }
     }
 }
